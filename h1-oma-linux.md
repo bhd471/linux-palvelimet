@@ -7,7 +7,7 @@
 - Raporttia tulisi kirjoittaa samaan aikaan kun tehdään tehtäviä
 - Raportin tulee olla niin selkeä ja kuvaava, että joku toinen voisi suorittaa tehtävän sen perusteella
 - Raportin tulee olla huolellisesti kirjoitettu, ja sisältää lähdeviittaukset
-  (Karvinen Tero, 4.6.2006)
+  (Karvinen, 04.06.2006)
 
 ### Free Software ja neljä vapautta
 
