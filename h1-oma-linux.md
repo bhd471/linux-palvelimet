@@ -33,6 +33,7 @@ Klo 19.40. Avaan Virtualboxin, ja valitsen ohjelman yläreunasta Machine -> New.
 Klo. 19.52. Valitsen Virtualboxissa juuri luomani koneen, ja Settings -> Storage. Controller: IDE alapuolelta valitsen Empty. Oikealla puolella Attributes alapuolella lukee Optical Drive. Tämän vieressä on pieni levyn kuva, josta klikkaamalla aukeaa Optical Disk Selector. Täällä painan Host Drive 'D:'. Ja tämän jälkeen ok, ja suljen näkymän. 
 
 Klo. 20.00. Lähden boottaamaan juuri luomaani virtuaalikonetta JanPen tuplaklikkaamalla sitä. Valitsen Boot menusta ylimmän vaihtoehdon, eli Live system (amd64). Tämä kohta hieman jännittää, sillä näyttää hieman erilaiselta kuin ohjeissa. Linuxin työpöytä tulee näkyviin. Vasemmassa yläreunassa on täppä "Applications" jonka painamisen jälkeen valitaan Web Browser. Kokeilin hakukoneella Terokarvinen.com, ja haku onnistui. Suljen hakukoneen. 
+
 ![bootloader](https://github.com/bhd471/linux-palvelimet/assets/148760837/351901c7-0c36-4ed9-bb23-3d72d6e95b0a)
 
 
