@@ -7,7 +7,7 @@
 - Raporttia tulisi kirjoittaa samaan aikaan kun tehdään tehtäviä
 - Raportin tulee olla niin selkeä ja kuvaava, että joku toinen voisi suorittaa tehtävän sen perusteella
 - Raportin tulee olla huolellisesti kirjoitettu, ja sisältää lähdeviittaukset
- (Tero Karvinen, 4.6.2006)
+  (Tero Karvinen, 4.6.2006)
 
 ### Free Software ja neljä vapautta
 
@@ -17,7 +17,7 @@
 - Vapaus 1: Käyttäjän oikeus lähdekoodiin sekä vapaus muuttaa ohjelmaa haluamallaan tavalla
 - Vapaus 2: Käyttäjän vapaus jakaa kopioita
 - Vapaus 3: Käyttäjän vapaus muokattujen versioiden jakeluun
- (Free Software Foundation, Inc. s. a.)
+  (Free Software Foundation, Inc. s. a.)
 
 
 
