@@ -43,9 +43,14 @@ Klo. 20.00. Lähden boottaamaan juuri luomaani virtuaalikonetta JanPen tuplaklik
 
 
 ### Debianin lataaminen ja ongelma näytön skaalautumisen kanssa
-Klo. 20.08. Valitsen työpöydältä "Install Debian", ja saan ilmoituksen tuntemattomasta lähteestä. Suostun lataamaan tästä huolimatta. Valitsen kielekseni American English, maaksi Suomen. Seuraavaksi täytyy valita näppäimistö asetukset. Näppäimistömalliksi Generic 105-key PC, Finnish ja Default. Seuraavassa kohdassa valitsen Erase Disk, ja boot loader location on Master boot record. Seuraavaksi täytän kokonimeni, ja valitsen sisäänkirjautumiseen nimen janika. Annan koneen nimeksi kissa. Valitsen pitkän salasanan joka sisältää erikoismerkkejä ja numeroita. Tämän jälkeen saan yhteenvedon juuri valitsemistani asetuksista. Tässä vaiheessa törmään outoon ongelmaan: Miten saan asennuksen käynnistettyä? 
+Klo. 20.08. Valitsen työpöydältä "Install Debian", ja saan ilmoituksen tuntemattomasta lähteestä. Suostun lataamaan tästä huolimatta. Valitsen kielekseni American English, maaksi Suomen. Seuraavaksi täytyy valita näppäimistö asetukset. Näppäimistömalliksi Generic 105-key PC, Finnish ja Default. Seuraavassa kohdassa valitsen Erase Disk, ja boot loader location on Master boot record. Seuraavaksi täytän kokonimeni, ja valitsen sisäänkirjautumiseen nimen janika. Annan koneen nimeksi kissa. Valitsen pitkän salasanan joka sisältää erikoismerkkejä ja numeroita. 
 
 ![nimivalinnat](https://github.com/bhd471/linux-palvelimet/assets/148760837/a6d63422-92e2-413a-8eb9-dd33826f6dc4)
+
+
+Tämän jälkeen saan yhteenvedon juuri valitsemistani asetuksista. Tässä vaiheessa törmään outoon ongelmaan: Miten saan asennuksen käynnistettyä? 
+
+
 
 
 Klo. 21.00. Pitkän miettimisen jälkeen tajusin, että virtuaalikone ei näy kokonaisuudessaan jostain syystä ruudullani. Löysin asennuksen käynnistysnappulan oikeasta alareunasta, mutta en aluksi tajunnut tätä. Lopulta sain asennuksen suoritettua onnistuneesti loppuun. Käynnistin koneen uudelleen. 
@@ -53,6 +58,7 @@ Klo. 21.00. Pitkän miettimisen jälkeen tajusin, että virtuaalikone ei näy ko
 (Karvinen Tero, Install Debian, 2023)
 
 ![ei_toimi](https://github.com/bhd471/linux-palvelimet/assets/148760837/6d7d66eb-75dd-4b5d-8e6f-93d1397163f0)
+
 Tässä kuvassa voi nähdä, kuinka vähän Install-painikkeesta on näkyvissä näytön skaalautumisen takia. 
 
 ### Lähdeluettelo
