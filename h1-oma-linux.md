@@ -25,19 +25,26 @@ Tein harjoituksen sunnuntaina 21.01.2024. Käytin harjoituksen tekemiseen Acer N
 
 Klo 19.15. Lähden tutustumaan Teron sivun ohjeisiin liittyen Debianin lataamiseen. Aloitan Debianin lataamisen heidän verkkosivuiltaan. Latasin koneelleni tiedoston debian-live-12.4.0-amd64-xfce.iso. 
 
+### Virtualboxin asennus
 Klo 19.32. Olen hetken miettinyt, mikä on homman seuraava vaihe. Tajuan, että minun tulisi asentaa myös Virtualbox koneelleni. Siirryn Virtualboxin sivuille, josta lähden lataamaan Windows-versiota koneelleni. Latauksen käynnistyessä ohjelma pyytää lupaa käyttää konetta, tämä annetaan. Asennusohjelmassa muutama nextin klikkaus, ja päästään asentamaan. Ohjelma ilmoittaa, että se joutuu katkaisemaan netin hetkeksi. Lataus sujui nopeasti. (Oracle VM Virtualbox, 2023)
 
 
 Klo 19.40. Avaan Virtualboxin, ja valitsen ohjelman yläreunasta Machine -> New. Valitsen alareunasta täpän Expert mode. Annan virtuaalikoneelle nimen "JanPen". Avaan kohdan Hardware, ja muistin kooksi 4000 MB. Tämän jälkeen avaan kohdan Hard Disk, ja täppä "Create a Virtual hard disk now". Muistia 60GB. Painan Finish. 
 
+
 Klo. 19.52. Valitsen Virtualboxissa juuri luomani koneen, ja Settings -> Storage. Controller: IDE alapuolelta valitsen Empty. Oikealla puolella Attributes alapuolella lukee Optical Drive. Tämän vieressä on pieni levyn kuva, josta klikkaamalla aukeaa Optical Disk Selector. Täällä painan Host Drive 'D:'. Ja tämän jälkeen ok, ja suljen näkymän. 
 
-Klo. 20.00. Lähden boottaamaan juuri luomaani virtuaalikonetta JanPen tuplaklikkaamalla sitä. Valitsen Boot menusta ylimmän vaihtoehdon, eli Live system (amd64). Tämä kohta hieman jännittää, sillä näyttää hieman erilaiselta kuin ohjeissa. Linuxin työpöytä tulee näkyviin. Vasemmassa yläreunassa on täppä "Applications" jonka painamisen jälkeen valitaan Web Browser. Kokeilin hakukoneella Terokarvinen.com, ja haku onnistui. Suljen hakukoneen. 
+### Virtuaalikoneen käynnistäminen
+Klo. 20.00. Lähden boottaamaan juuri luomaani virtuaalikonetta JanPen tuplaklikkaamalla sitä. Valitsen Boot menusta ylimmän vaihtoehdon, eli Live system (amd64). Tämä kohta hieman jännittää, sillä näyttää hieman erilaiselta kuin ohjeissa. Linuxin työpöytä tulee näkyviin. Vasemmassa yläreunassa on täppä "Applications" jonka painamisen jälkeen valitaan Web Browser. Kokeilin hakukoneella hakusanaa kissa, ja haku onnistui. Suljen hakukoneen. 
+
 
 ![bootloader](https://github.com/bhd471/linux-palvelimet/assets/148760837/351901c7-0c36-4ed9-bb23-3d72d6e95b0a)
 
 
+
+### Debianin lataaminen ja ongelma näytön skaalautumisen kanssa
 Klo. 20.08. Valitsen työpöydältä "Install Debian", ja saan ilmoituksen tuntemattomasta lähteestä. Suostun lataamaan tästä huolimatta. Valitsen kielekseni American English, maaksi Suomen. Seuraavaksi täytyy valita näppäimistö asetukset. Näppäimistömalliksi Generic 105-key PC, Finnish ja Default. Seuraavassa kohdassa valitsen Erase Disk, ja boot loader location on Master boot record. Seuraavaksi täytän kokonimeni, ja valitsen sisäänkirjautumiseen nimen janika. Annan koneen nimeksi kissa. Valitsen pitkän salasanan joka sisältää erikoismerkkejä ja numeroita. Tämän jälkeen saan yhteenvedon juuri valitsemistani asetuksista. Tässä vaiheessa törmään outoon ongelmaan: Miten saan asennuksen käynnistettyä? 
+
 ![nimivalinnat](https://github.com/bhd471/linux-palvelimet/assets/148760837/a6d63422-92e2-413a-8eb9-dd33826f6dc4)
 
 
