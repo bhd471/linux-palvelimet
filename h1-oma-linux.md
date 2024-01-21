@@ -33,15 +33,19 @@ Klo 19.40. Avaan Virtualboxin, ja valitsen ohjelman yläreunasta Machine -> New.
 Klo. 19.52. Valitsen Virtualboxissa juuri luomani koneen, ja Settings -> Storage. Controller: IDE alapuolelta valitsen Empty. Oikealla puolella Attributes alapuolella lukee Optical Drive. Tämän vieressä on pieni levyn kuva, josta klikkaamalla aukeaa Optical Disk Selector. Täällä painan Host Drive 'D:'. Ja tämän jälkeen ok, ja suljen näkymän. 
 
 Klo. 20.00. Lähden boottaamaan juuri luomaani virtuaalikonetta JanPen tuplaklikkaamalla sitä. Valitsen Boot menusta ylimmän vaihtoehdon, eli Live system (amd64). Tämä kohta hieman jännittää, sillä näyttää hieman erilaiselta kuin ohjeissa. Linuxin työpöytä tulee näkyviin. Vasemmassa yläreunassa on täppä "Applications" jonka painamisen jälkeen valitaan Web Browser. Kokeilin hakukoneella Terokarvinen.com, ja haku onnistui. Suljen hakukoneen. 
+![bootloader](https://github.com/bhd471/linux-palvelimet/assets/148760837/351901c7-0c36-4ed9-bb23-3d72d6e95b0a)
+
 
 Klo. 20.08. Valitsen työpöydältä "Install Debian", ja saan ilmoituksen tuntemattomasta lähteestä. Suostun lataamaan tästä huolimatta. Valitsen kielekseni American English, maaksi Suomen. Seuraavaksi täytyy valita näppäimistö asetukset. Näppäimistömalliksi Generic 105-key PC, Finnish ja Default. Seuraavassa kohdassa valitsen Erase Disk, ja boot loader location on Master boot record. Seuraavaksi täytän kokonimeni, ja valitsen sisäänkirjautumiseen nimen janika. Annan koneen nimeksi kissa. Valitsen pitkän salasanan joka sisältää erikoismerkkejä ja numeroita. Tämän jälkeen saan yhteenvedon juuri valitsemistani asetuksista. Tässä vaiheessa törmään outoon ongelmaan: Miten saan asennuksen käynnistettyä? 
+![nimivalinnat](https://github.com/bhd471/linux-palvelimet/assets/148760837/a6d63422-92e2-413a-8eb9-dd33826f6dc4)
+
 
 Klo. 21.00. Pitkän miettimisen jälkeen tajusin, että virtuaalikone ei näy kokonaisuudessaan jostain syystä ruudullani. Löysin asennuksen käynnistysnappulan oikeasta alareunasta, mutta en aluksi tajunnut tätä. Lopulta sain asennuksen suoritettua onnistuneesti loppuun. Käynnistin koneen uudelleen. 
 
 (Karvinen Tero, Install Debian, 2023)
 
 ![ei_toimi](https://github.com/bhd471/linux-palvelimet/assets/148760837/6d7d66eb-75dd-4b5d-8e6f-93d1397163f0)
-
+Tässä kuvassa voi nähdä, kuinka vähän Install-painikkeesta on näkyvissä näytön skaalautumisen takia. 
 
 ### Lähdeluettelo
   Karvinen, T. 04.06.2006. Raportin kirjoittaminen. Luettavissa:
