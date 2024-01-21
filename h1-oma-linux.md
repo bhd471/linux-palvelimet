@@ -19,7 +19,7 @@
 - Vapaus 3: Käyttäjän vapaus muokattujen versioiden jakeluun
   (Free Software Foundation, Inc. s. a.)
 
-## Linux asennus
+## Linuxin asennus
 
 Tein harjoituksen sunnuntaina 21.01.2024. Käytin harjoituksen tekemiseen Acer Nitro N50-620- työasemaa, Windows 11-käyttöjärjestelmä. (Karvinen, 2023. h1 - Oma Linux)
 
