@@ -12,6 +12,8 @@ Tärkeimpiä komentoja
 - nano kissa.txt = luo uuden tekstitiedoston editoriin
   (Karvinen, 03.02.2020)
 
+Suoritin tehtävät 
+
 ### Lähdeluettelo
 
 Karvinen Tero, 03.02.2020. Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited 
