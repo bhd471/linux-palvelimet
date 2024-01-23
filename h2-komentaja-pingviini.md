@@ -18,8 +18,9 @@ Aloitin tehtävän suorittamisen 23.01., klo 19.15.
 
 Aloitan tehtävän suorittamisen perehtymällä Teron ohjeisiin. Avaan komentorivin virtuaalikoneellani ja suoritan komennon sudo apt-get update. Tämän jälkeen minulta pyydetään salasanaa. Kirjoittaessa salasanaani komentoriville ei tullut minkäänlaisia merkkejä näkyviin, ja ihmettelin tätä hieman. Kirjautuminen kuitenkin onnistui. 
 
-Klo. 19.25. Suoritan komentorivillä komennon sudo apt-get -y install micro, jonka pitäisi asentaa micro-editori. Tämän jälkeen avasin editorin ja loin uuden tiedoston komennolla ´´´micro´´´
+Klo. 19.25. Suoritan komentorivillä komennon sudo apt-get -y install micro, jonka pitäisi asentaa micro-editori. Tämän jälkeen avasin editorin ja loin uuden tiedoston komennolla micro testi.txt. Hetken pähkäilin, sillä kirjoittaessani editoriin, teksti ei tullut näkyviin. Käytin kuitenkin virtuaalikonetta koko ruudun tilassa, ja lähti tämän jälkeen näkymään. Kokeilin vielä kirjoittamista editoriin, ja se onnistui hienosti. 
 
+B) Klo 19.35. Aloitin taas päivittämällä listan, ja tämän jälkeen suoritan komennon sudo apt install lshw. Lähden suorittamaan komentorivillä komentoa sudo lshw -short -sanitize. 
 
 
 ### Lähdeluettelo
