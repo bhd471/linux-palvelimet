@@ -27,7 +27,7 @@ Klo. 19.25. Suoritan komentorivillä komennon sudo apt-get -y install micro, jon
 
 
 
-B) 29.01.2024, Klo 13.45. Aloitin taas päivittämällä listan, ja tämän jälkeen suoritan komennon sudo apt install lshw. Lähden suorittamaan komentorivillä komentoa sudo lshw -short -sanitize. 
+B) 29.01.2024, Klo 13.45. Aloitin taas päivittämällä listan, ja tämän jälkeen suoritan komennon `sudo apt install lshw`. Lähden suorittamaan komentorivillä komentoa sudo lshw -short -sanitize. 
 
 Komennosta tulee ilmi, että käytän Virtualboxia, sekä antaa tietoja virtuaalikoneen komponenteista. Tässä listauksessa on mukana esimerkiksi prosessorin tiedot sekä tietoa muistista ja verkkoyhteyksistä. 
 
