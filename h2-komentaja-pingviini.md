@@ -14,7 +14,7 @@ Tärkeimpiä komentoja
 
 Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Windows 11 käyttöjärjestelmä. Työasemassani on Intel Core i5-prosessori, NVIDIA GeForce RTX 3060 Ti-näytönohjain, 16 Gt RAM-muistia sekä 1 TB tallennustilaa.
 
-Aloitin tehtävän suorittamisen 23.01., klo 19.15. 
+Aloitin tehtävän suorittamisen 23.01., klo 19.15. Jatkoin tehtävän suorittamista 28.01.
 
 Aloitan tehtävän suorittamisen perehtymällä Teron ohjeisiin. Avaan komentorivin virtuaalikoneellani ja suoritan komennon sudo apt-get update. Tämän jälkeen minulta pyydetään salasanaa. Kirjoittaessa salasanaani komentoriville ei tullut minkäänlaisia merkkejä näkyviin, ja ihmettelin tätä hieman. Kirjautuminen kuitenkin onnistui. 
 
@@ -46,8 +46,40 @@ Testasin kaikkien kolmen ohjelman toimivuuden.
 ![vim2](https://github.com/bhd471/linux-palvelimet/assets/148760837/8dfebc55-54c3-445e-9b44-33e5c92a64ec)
 
 
+## FHS
+
+![fhs](https://github.com/bhd471/linux-palvelimet/assets/148760837/552c5f96-5066-4648-b2e2-07be61acee28)
 
 
+
+
+
+
+![fhs2](https://github.com/bhd471/linux-palvelimet/assets/148760837/df36869c-5c7f-441d-aa97-0263e0f32fcf)
+
+## The Friendly M
+
+Esimerkkejä grep-komennon käytöstä. 
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/df940c69-63e8-428c-ac2e-7187e05ef222)
+
+
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/575af8ed-fbf5-4492-a1d7-823fd44f5824)
+
+
+## Pipe
+
+Esimerkki putkien käytöstä. Testailin komentoa ls -l | more 
+
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/99463fb6-6ea5-4f70-9529-e2c5c1725256)
+
+## Loki
+
+Osasin tarkastella lokia komennolla journalctl -f. Sain myös tuotettua logger -komennon avulla onnistuneen ilmoituksen lokiin, mutta epäonnistuneen ilmoituksen tuottamisessa en onnistunut. 
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/df5ff3b3-a234-4f9f-966c-f0d33f85da77)
 
 
 
@@ -60,4 +92,6 @@ https://docs.rackspace.com/docs/command-line-text-editors-in-linux
 
 https://www.makeuseof.com/fun-linux-command-line-programs/
 
+https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
 
+https://www.geeksforgeeks.org/piping-in-unix-or-linux/
