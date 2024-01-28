@@ -58,3 +58,6 @@ Luettu 23.01.2024.
 
 https://docs.rackspace.com/docs/command-line-text-editors-in-linux
 
+https://www.makeuseof.com/fun-linux-command-line-programs/
+
+
