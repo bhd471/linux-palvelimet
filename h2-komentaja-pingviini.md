@@ -14,9 +14,7 @@ Tärkeimpiä komentoja
 
 ## Työasema ja Micro-editorin asennus
 
-Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Windows 11 käyttöjärjestelmä. Työasemassani on Intel Core i5-prosessori, NVIDIA GeForce RTX 3060 Ti-näytönohjain, 16 Gt RAM-muistia sekä 1 TB tallennustilaa.
-
-Aloitin tehtävän suorittamisen 23.01., klo 19.15. Jatkoin tehtävän suorittamista 28.01.
+Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Windows 11 käyttöjärjestelmä. Työasemassani on Intel Core i5-prosessori, NVIDIA GeForce RTX 3060 Ti-näytönohjain, 16 Gt RAM-muistia sekä 1 TB tallennustilaa. Aloitin tehtävän suorittamisen 23.01., klo 19.15. Jatkoin tehtävän suorittamista 28.01.
 
 Aloitan tehtävän suorittamisen perehtymällä Teron ohjeisiin (Karvinen, h2- Komentaja Pingviini). Avaan komentorivin virtuaalikoneellani ja suoritan komennon `sudo apt-get update`. Tämän jälkeen minulta pyydetään salasanaa. Kirjoittaessa salasanaani komentoriville ei tullut minkäänlaisia merkkejä näkyviin, ja ihmettelin tätä hieman. Kirjautuminen kuitenkin onnistui. 
 
