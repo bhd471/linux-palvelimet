@@ -88,7 +88,7 @@ Esimerkki putkien käytöstä. Testailin komentoa `ls -l | more `
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/99463fb6-6ea5-4f70-9529-e2c5c1725256)
 
-## Loki
+## Tukki
 
 Osasin tarkastella lokia komennolla `journalctl -f`. Sain myös tuotettua `logger` -komennon avulla onnistuneen ilmoituksen lokiin, mutta epäonnistuneen ilmoituksen tuottamisessa en onnistunut. 
 (Henry-Stocker, 22.05.2018)
