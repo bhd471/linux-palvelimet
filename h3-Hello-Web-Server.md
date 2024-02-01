@@ -25,6 +25,15 @@ Web-palvelin vastaa osoitteella http://localhost.
 
 Aloitin poistamalla apachen asennuksen kokonaan sekä vanhat tiedostot käyttämällä komentoa `sudo purge apache2`. Poistin myös kansion janika.example.com komennolla `sudo rmdir /home/janika/webbi/janika.example.com`. (Brown, 15.12.2020)
 
+Tämän jälkeen lähden lataamaan apachea uudelleen komennolla `sudo apt-get -y install apache2`. Syötän komennon `sudoedit /etc/apache2/sites-available/hattu.axample.com.conf`. Komento avaa nano-editorin, johon syötän tarvittavat Virtual Host tiedot. Tässä vaiheessa myös tarkistan oikean asettelun tekstille.
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/27c0f691-27cc-458f-b516-535ecacbfb7b)
+
+
+Aktivoin palvelimen komennolla `sudo a2ensite hattu.example.com`. Käynnistän sen uudelleen komennolla `sudo systemctl restart apache2`. Luon hakemiston käyttäen komentoa `mkdir -p /home/janika/webbi/hattu.example.com/`. Seuraavaksi komennolla `echo hattu > /home/janika/webbi/hattu.example.com/index.html` kirjoitan tekstin hattu index.html sivulle. 
+
+Testaan komennolla `curl -H 'Host: hattu.example.com' loclahost` sekä `curl localhost`. Tässä vaiheessa sivulla ei näy muuta tekstiä kuin "Default". 
+
 ## E) HTML5-sivu
 
 ## F) Esimerkit komennoista
