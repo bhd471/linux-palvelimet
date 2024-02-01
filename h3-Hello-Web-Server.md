@@ -32,9 +32,19 @@ Tämän jälkeen lähden lataamaan apachea uudelleen komennolla `sudo apt-get -y
 
 Aktivoin palvelimen komennolla `sudo a2ensite hattu.example.com`. Käynnistän sen uudelleen komennolla `sudo systemctl restart apache2`. Luon hakemiston käyttäen komentoa `mkdir -p /home/janika/webbi/hattu.example.com/`. Seuraavaksi komennolla `echo hattu > /home/janika/webbi/hattu.example.com/index.html` kirjoitan tekstin hattu index.html sivulle. 
 
-Testaan komennolla `curl -H 'Host: hattu.example.com' loclahost` sekä `curl localhost`. Tässä vaiheessa sivulla ei näy muuta tekstiä kuin "Default". 
+Testaan komennolla `curl -H 'Host: hattu.example.com' loclahost` sekä `curl localhost`. Tässä vaiheessa sivulla ei näy muuta tekstiä kuin "Default". Pitkän miettimisen ja googlailun jälkeen (Niazi, R. 25.03.2022) tajusin käyttää komentoa `sudo a2dissite 000-default.conf`. Tämän jälkeen index.html sivulle syöttämäni teksti tuli näkyviin localhost-sivulla. 
+
+
+
 
 ## E) HTML5-sivu
+
+Lähdin työstämään index.html tiedostossa validia HTML-sivua. 
+
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/70b03807-a8d2-47ff-90b3-21a14fd716c5)
+
+
 
 ## F) Esimerkit komennoista
 
@@ -46,3 +56,6 @@ Luettu 31.01.2024.
 
 Brown, K. How to remove Apache server from Ubuntu. Luettavissa: https://linuxconfig.org/how-to-remove-apache-web-server-from-ubuntu
 Luettu 31.01.2024.
+
+Niazi, R. How to set up an Apache web server on Linux. Luettavissa: https://www.makeuseof.com/tag/set-apache-web-server-3-easy-steps/
+Luettu 01.02.2024.
