@@ -56,7 +56,7 @@ Lähdin työstämään index.html tiedostossa validia HTML-sivua. Olen joskus ai
 ## F) Esimerkit curl-komennoista
 
 Komennolla `curl -i localhost` komentoriville tulostuu HTTP-otsakkeet. 
-"HTTP/1.1 200 OK" kertoo käytetyn protokolla ja että pyyntö on onnistunut. (Mdn web docs)
+"HTTP/1.1 200 OK" kertoo käytetyn protokolla ja että pyyntö on onnistunut. (Mdn Web Docs)
 "Server: Apache/2.4.57 (Debian)" kertoo, että käytössä on Apache web-ohjelmiston versio 2.4.57. 
 
 
@@ -83,7 +83,8 @@ Luettu 31.01.2024.
 Niazi, R. How to set up an Apache web server on Linux. Luettavissa: https://www.makeuseof.com/tag/set-apache-web-server-3-easy-steps/
 Luettu 01.02.2024.
 
-Luettavissa: https://appdevtools.com/html-validator
+AppDevTools. HTML Validator. Käytettävissä: https://appdevtools.com/html-validator
+Käytetty: 04.02.2024.
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200
-
+Mdn Web Docs. 200 OK. Luettavissa: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200
+Luettu 04.02.2024.
