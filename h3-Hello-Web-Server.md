@@ -2,7 +2,25 @@
 
 ## Tiivistelmä
 
+### The Apache Software Foundation
 
+- Nimipohjainen virtuaalipalvelin on usein yksinkertaisempi kuin IP-pohjainen
+- Ensimmäinen vaihe nimipohjaisessa ratkaisussa on IP-pohjainen ratkaisu
+- Ensimmmäiseksi tulisi luoda <VirtualHost>, jonka sisälle luodaan ServerName sekä DocumentRoot
+- DocumentRoot näyttää missä tiedostot sijaitsevat
+(Apache HTTP Server Project)
+
+### Name Based Virtual Hosts on Apache - Tero Karvinen
+
+- Aloitetaan asentamalla Apache ja lisäämällä localhost sivulle teksti "Default"
+- Luodaan uusi nimipohjainen Virtual host, käynnistetään Apache uudelleen
+- Luodaan verkkosivu tavallisena käyttäjän ja lisätään sinne tekstiä
+- Testataan sivua curl-komennoilla
+(Karvinen, 10.04.2018)
+
+### Oma rauta
+
+Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Windows 11 käyttöjärjestelmä. Työasemassani on Intel Core i5-prosessori, NVIDIA GeForce RTX 3060 Ti-näytönohjain, 16 Gt RAM-muistia sekä 1 TB tallennustilaa. 
 
 ## A) Localhost
 
@@ -74,8 +92,12 @@ Komennolla `curl localhost` saadaan näkyviin komentoriville localhost sivulla n
 
 ### Lähdeluettelo
 
+
 Karvinen, T. Linux-palvelimet alkukevät 2024. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
 Luettu 31.01.2024. 
+
+Karvinen, T. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+Luettu 31.01.2024.
 
 Brown, K. How to remove Apache server from Ubuntu. Luettavissa: https://linuxconfig.org/how-to-remove-apache-web-server-from-ubuntu
 Luettu 31.01.2024.
