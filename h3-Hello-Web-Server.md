@@ -16,7 +16,7 @@ Web-palvelin vastaa osoitteella http://localhost.
 
 ## B) Loki
 
-
+Jostain syystä en saanut access.log-tiedostoja auki. Kokeilin komentoja `sudo tail -10 /var/log/apache2/access.log` sekä `sudo tail -f /var/log/apache2/access.log`. Error-log-tiedostot aukesivat kyllä. 
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/c0fc165b-ec67-4e4b-b4f0-82f7546060c5)
 
@@ -34,19 +34,43 @@ Aktivoin palvelimen komennolla `sudo a2ensite hattu.example.com`. Käynnistän s
 
 Testaan komennolla `curl -H 'Host: hattu.example.com' loclahost` sekä `curl localhost`. Tässä vaiheessa sivulla ei näy muuta tekstiä kuin "Default". Pitkän miettimisen ja googlailun jälkeen (Niazi, R. 25.03.2022) tajusin käyttää komentoa `sudo a2dissite 000-default.conf`. Tämän jälkeen index.html sivulle syöttämäni teksti tuli näkyviin localhost-sivulla. 
 
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/ecab2500-1bd2-4fb2-9a66-531f86cb0bdd)
+
 
 
 
 ## E) HTML5-sivu
 
-Lähdin työstämään index.html tiedostossa validia HTML-sivua. 
+Lähdin työstämään index.html tiedostossa validia HTML-sivua. Olen joskus aikaisemmin luonut verkkosivun käyttämällä HTML5, joten tälläisen simppelin sivun luominen oli yksinkertaista. Validoin sivuni käyttämällä HTML Validatoria. (AppDevTools)
 
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/70b03807-a8d2-47ff-90b3-21a14fd716c5)
 
 
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/62d5965e-41aa-43d0-b221-36532cb7ab24)
 
-## F) Esimerkit komennoista
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/5640b775-f055-4fb3-8e16-e91bc940233a)
+
+
+
+## F) Esimerkit curl-komennoista
+
+Komennolla `curl -i localhost` komentoriville tulostuu HTTP-otsakkeet. 
+"HTTP/1.1 200 OK" kertoo käytetyn protokolla ja että pyyntö on onnistunut. (Mdn web docs)
+"Server: Apache/2.4.57 (Debian)" kertoo, että käytössä on Apache web-ohjelmiston versio 2.4.57. 
+
+
+
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/721a1ac3-30bd-406a-a5ae-092a5e4aa383)
+
+
+Komennolla `curl localhost` saadaan näkyviin komentoriville localhost sivulla näkyvä koodi.
+
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/2428ec6f-57fd-4c90-9ecc-9fd74c734e8e)
+
 
 
 ### Lähdeluettelo
@@ -59,3 +83,8 @@ Luettu 31.01.2024.
 
 Niazi, R. How to set up an Apache web server on Linux. Luettavissa: https://www.makeuseof.com/tag/set-apache-web-server-3-easy-steps/
 Luettu 01.02.2024.
+
+Luettavissa: https://appdevtools.com/html-validator
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200
+
