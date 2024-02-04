@@ -8,6 +8,7 @@
 - Ensimmäinen vaihe nimipohjaisessa ratkaisussa on IP-pohjainen ratkaisu
 - Ensimmmäiseksi tulisi luoda <VirtualHost>, jonka sisälle luodaan ServerName sekä DocumentRoot
 - DocumentRoot näyttää missä tiedostot sijaitsevat
+
 (Apache HTTP Server Project)
 
 ### Name Based Virtual Hosts on Apache - Tero Karvinen
@@ -16,6 +17,7 @@
 - Luodaan uusi nimipohjainen Virtual host, käynnistetään Apache uudelleen
 - Luodaan verkkosivu tavallisena käyttäjän ja lisätään sinne tekstiä
 - Testataan sivua curl-komennoilla
+
 (Karvinen, 10.04.2018)
 
 ### Oma rauta
