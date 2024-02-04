@@ -2,12 +2,12 @@
 
 ## Tiivistelmä
 
-Lähdin suorittamaan tehtävää 31.01.2024.
+
 
 ## A) Localhost
 
 
-Klo 19.45. Apache-web-palvelin löytyy virtuaalikoneeltani jo asennettuna. 
+Apache-web-palvelin löytyy virtuaalikoneeltani jo asennettuna. 
 
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/ee58ae6a-ae58-4a36-9a4c-da27034d9a69)
