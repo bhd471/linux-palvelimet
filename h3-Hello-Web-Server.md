@@ -34,7 +34,6 @@ Aktivoin palvelimen komennolla `sudo a2ensite hattu.example.com`. Käynnistän s
 
 Testaan komennolla `curl -H 'Host: hattu.example.com' loclahost` sekä `curl localhost`. Tässä vaiheessa sivulla ei näy muuta tekstiä kuin "Default". Pitkän miettimisen ja googlailun jälkeen (Niazi, R. 25.03.2022) tajusin käyttää komentoa `sudo a2dissite 000-default.conf`. Tämän jälkeen index.html sivulle syöttämäni teksti tuli näkyviin localhost-sivulla. 
 
-![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/ecab2500-1bd2-4fb2-9a66-531f86cb0bdd)
 
 
 
