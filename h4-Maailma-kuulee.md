@@ -18,6 +18,11 @@ f) - Päivitetään kaikki palvelimen ohjelmat
 
 - Uuden serverin voi luoda esim. DigitalOcean nimisessä palvelussa
 
+## a) Virtuaalipalvelimen vuokraaminen
+
+
+
+
 ### Lähdeluettelo
 
 Lehto, S. Teoriasta käytäntöön pilvipalvelimen avulla. 14.02.2022. Luettavissa: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
