@@ -27,7 +27,7 @@ Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Window
 ## A) Localhost
 
 
-Apache-web-palvelin löytyy virtuaalikoneeltani jo asennettuna. 
+Apache-webbipalvelin löytyy virtuaalikoneeltani jo asennettuna. 
 
 
 
