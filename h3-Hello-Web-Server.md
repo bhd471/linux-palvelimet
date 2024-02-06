@@ -20,7 +20,7 @@
 
 (Karvinen, 10.04.2018)
 
-### Oma rauta
+### Oma käyttöympäristö
 
 Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Windows 11 käyttöjärjestelmä. Työasemassani on Intel Core i5-prosessori, NVIDIA GeForce RTX 3060 Ti-näytönohjain, 16 Gt RAM-muistia sekä 1 TB tallennustilaa. 
 
