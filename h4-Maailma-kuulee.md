@@ -24,6 +24,10 @@ f) - Päivitetään kaikki palvelimen ohjelmat
 
   (Karvinen, 19.09.2017)
 
+### Oma käyttöympäristö
+
+Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Windows 11 käyttöjärjestelmä. Työasemassani on Intel Core i5-prosessori, NVIDIA GeForce RTX 3060 Ti-näytönohjain, 16 Gt RAM-muistia sekä 1 TB tallennustilaa.
+
 ## a) Virtuaalipalvelimen vuokraaminen
 
 Siirryin DigitalOceanin sivuille, johon kirjauduin Googlen tunnuksilla. Sivusto lupasi 200 dollarin edestä ilmaisia krediittejä 60 päivän ajaksi. Jouduin varmentamaan identiteettini syöttämällä luottokorttitietoni sivustolle. Tililtäni veloitettiin 5 dollaria, mutta tämä luvattiin palauttaa viikon kuluessa. Tämän jälkeen päivitin tiimini nimen omaksi nimekseni. 
