@@ -1,14 +1,14 @@
 ## x) Lue ja tiivistä
 
-### Teoriasta käytäntöön pilvipalvelimen avulla, Susanna Lehto
+### Teoriasta käytäntöön pilvipalvelimen avulla
 
-a) - Pilven vuokraaminen verkosta, oman julkisen palvelimen asentaminen verkkoon
+- Pilven vuokraaminen verkosta, oman julkisen palvelimen asentaminen verkkoon
 
-d) - Reikä ssh-palvelimelle, jonka jälkeen palvelin suojataan tulimuurilla
+- Reikä SSH-palvelimelle, jonka jälkeen palvelin suojataan tulimuurilla
 
-e) - Luodaan Apache-webbipalvelimella kotisivut
+- Luodaan Apache-webbipalvelimella kotisivut
 
-f) - Päivitetään kaikki palvelimen ohjelmat
+- Päivitetään kaikki palvelimen ohjelmat
 
 (Lehto, 14.02.2022.)
 
@@ -22,7 +22,7 @@ f) - Päivitetään kaikki palvelimen ohjelmat
 
 - Gandi ja NameCheap- nimiset palvelut tarjoavat vuokrattavia domain-nimiä
 
-  (Karvinen, 19.09.2017)
+(Karvinen, 19.09.2017)
 
 ### Oma käyttöympäristö
 
@@ -39,24 +39,24 @@ Aloin luomaan uutta virtuaalipalvelinta kohdasta "Droplets". Sivun mukaan palvel
 
 ## b) Alkutoimet omalla palvelimella
 
-Aloitan asentamalla SSH-ohjelman virtuaalikoneelleni, suorittamalla ensin komennon `sudo apt-get update` ja sen jälkeen `sudo apt-get install ssh`. Seuraavaksi komentoriville syötin komennon `ssh root@159.65.194.165`. Minulta pyydettiin virtuaalipalvelimeni salasanaa, jonka syötin. Sain yhteyden palvelimelleni, ja hain päivitykset `sudo apt-get update` komennolla. 
-
-Asensin tulimuurin komennolla `sudo apt-get install ufw`. Tein reiän tulimuuriin komennolla `sudo ufw allow 22/tcp` ja laitoin muurin päälle `sudo ufw enable`.
+Aloitan asentamalla SSH-ohjelman virtuaalikoneelleni, suorittamalla komentorivillä ensin komennon `sudo apt-get update` ja sen jälkeen `sudo apt-get install ssh`. Seuraavaksi syötin komennon `ssh root@159.65.194.165`. Minulta pyydettiin virtuaalipalvelimeni salasanaa, jonka syötin. Sain yhteyden palvelimelleni, ja hain päivitykset `sudo apt-get update` komennolla. Asensin tulimuurin komennolla `sudo apt-get install ufw`. Tein reiän tulimuuriin komennolla `sudo ufw allow 22/tcp` ja laitoin muurin päälle `sudo ufw enable`.
 
 
 
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/7c1a1f2a-524a-4e5d-bbfc-344874cb1380)
 
-Aloin asentamaan weppipalvelinta uudelle virtuaalipalvelimelleni. 
 
-Suoritin komentorivillä komennon `sudo adduser janika`, joka luo palvelimelle käyttäjän. Keksin vahvan salasanan, ja syötin kokonimeni. Muut kohdat jätin tyhjäksi. Annoin käyttäjälle pääkäyttäjän oikeudet komennolla `sudo adduser janika sudo`. Avasin uuden terminaalin, ja kokeilin käyttäjän toimivuutta. Päivitin päivitystiedot onnistuneesti.
+Aloin asentamaan weppipalvelinta uudelle virtuaalipalvelimelleni. Suoritin komentorivillä komennon `sudo adduser janika`, joka luo palvelimelle käyttäjän. Keksin vahvan salasanan, ja syötin kokonimeni. Muut kohdat jätin tyhjäksi. Annoin käyttäjälle pääkäyttäjän oikeudet komennolla `sudo adduser janika sudo`. Avasin uuden terminaalin, ja kokeilin käyttäjän toimivuutta. Päivitin päivitystiedot onnistuneesti. 
 
-Suljin root-tunnuksen komennolla `sudo usermod --lock root`. Suljen vielä kirjautumisen SSH- kautta komennolla `sudoedit /etc/ssh/aahd_config`. Lisäsin avautuvaan nanotiedostoon tekstin PermitRootLogin no. Suoritin vielä komennon `sudo service ssh restart`.
+Suljin root-tunnuksen komennolla `sudo usermod --lock root`. Suljen vielä kirjautumisen SSH- kautta komennolla `sudoedit /etc/ssh/sshd_config`. Lisäsin avautuvaan nanotiedostoon tekstin PermitRootLogin no. Suoritin vielä komennon `sudo service ssh restart`.
+
 
 ## c) Weppipalvelimen asentaminen
 
+
 Kirjauduin SSH-yhteydellä palvelimelleni sisään. Asennan päivitykset komennoilla `sudo apt-get update` ja `sudo apt-get upgrade`. Tein toisen reiän tulimuuriin komennolla `sudo ufw allow 80/tcp`. 
+
 
 Seuraavaksi asensin Apachen virtuaalikoneelleni (Karvinen, 10.04.2018). Loin uuden kansion 'netti' palvelinta varten.  Korvasin testisivun komennolla `echo "Default"|sudo tee /var/www/html/index.html`. 
 
@@ -83,13 +83,17 @@ Loin name based virtual hostin ja lisäsin tekstiä sivulle, ja sivu näyttää 
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/369d5734-d845-4430-a11d-816a79465c6b)
 
+
 ### Lähdeluettelo
 
-Lehto, S. Teoriasta käytäntöön pilvipalvelimen avulla. 14.02.2022. Luettavissa: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
+Karvinen, T. H4 - Maailma kuulee, Linux-palvelimet kurssi. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
+Luettu 06.02.2024.
+
+Lehto, S. 14.02.2022. Teoriasta käytäntöön pilvipalvelimen avulla. Susanna Lehdon blogi. Luettavissa: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
 Luettu: 06.02.2024.
 
-Karvinen, T. First steps on a new virtual private server - an example on DigitalOcean and Ubuntu 16.04 LTS. 19.09.2017. Luettavissa: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+Karvinen, T. 19.09.2017. First steps on a new virtual private server - an example on DigitalOcean and Ubuntu 16.04 LTS. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 Luettu: 06.02.2024.
 
-Karvinen, T. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. 10.04.2018. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+Karvinen, T. 10.04.2018. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 Luettu 08.02.2024.
