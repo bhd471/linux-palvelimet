@@ -79,7 +79,7 @@ Seuraavaksi lähdin ohjaamaan domainia virtuaalipalvelimelle. Domain list -> Adv
 
 ## Lopputulos
 
-Loin name based virtual hostin ja lisäsin tekstiä sivulle, ja sivu näyttää tällä hetkellä tältä. Toimii eri selaimilla, myös puhelimella.
+Loin name based virtual hostin ja lisäsin tekstiä sivulle, sivu näyttää tällä hetkellä tältä. Toimii eri selaimilla, myös puhelimella.
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/369d5734-d845-4430-a11d-816a79465c6b)
 
