@@ -44,7 +44,7 @@ Aloitan asentamalla SSH-ohjelman virtuaalikoneelleni, suorittamalla komentorivil
 
 
 
-![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/7c1a1f2a-524a-4e5d-bbfc-344874cb1380)
+<img src="polku/kuva.jpg" alt="Kuva nimi" width="400" height="300">![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/7c1a1f2a-524a-4e5d-bbfc-344874cb1380)
 
 
 Aloin asentamaan weppipalvelinta uudelle virtuaalipalvelimelleni. Suoritin komentorivillä komennon `sudo adduser janika`, joka luo palvelimelle käyttäjän. Keksin vahvan salasanan, ja syötin kokonimeni. Muut kohdat jätin tyhjäksi. Annoin käyttäjälle pääkäyttäjän oikeudet komennolla `sudo adduser janika sudo`. Avasin uuden terminaalin, ja kokeilin käyttäjän toimivuutta. Päivitin päivitystiedot onnistuneesti. 
