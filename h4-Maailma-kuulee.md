@@ -1,4 +1,4 @@
-## Tiivistelmä
+## x) Lue ja tiivistä
 
 ### Teoriasta käytäntöön pilvipalvelimen avulla, Susanna Lehto
 
@@ -17,6 +17,12 @@ f) - Päivitetään kaikki palvelimen ohjelmat
 - Verkkotunnukset ja yksityiset virtuaalipalvelimet ovat kovasti kilpailtuja
 
 - Uuden serverin voi luoda esim. DigitalOcean nimisessä palvelussa
+
+- Tehdään reikä tulimuuriin, suljetaan root-tunnus, päivitetään softa.
+
+- Gandi ja NameCheap- nimiset palvelut tarjoavat vuokrattavia domain-nimiä
+
+  (Karvinen, 19.09.2017)
 
 ## a) Virtuaalipalvelimen vuokraaminen
 
@@ -53,7 +59,7 @@ Seuraavaksi asensin Apachen virtuaalikoneelleni (Karvinen, 10.04.2018). Loin uud
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/d3ff48d0-09e6-4319-964e-ed8b15097e25)
 
-Kokeilin useammalla laitteella sivun janikapenttinen.com toimivuutta. 
+Kokeilin useammalla laitteella sivun toimivuutta. 
 
 
 ## d) Domainin vuokraaminen
@@ -67,6 +73,11 @@ Seuraavaksi lähdin ohjaamaan domainia virtuaalipalvelimelle. Domain list -> Adv
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/ea39207c-6f8d-4ea5-98c2-6a162420e41f)
 
 
+## Lopputulos
+
+Loin name based virtual hostin ja lisäsin tekstiä sivulle, ja sivu näyttää tällä hetkellä tältä. Toimii eri selaimilla, myös puhelimella.
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/369d5734-d845-4430-a11d-816a79465c6b)
 
 ### Lähdeluettelo
 
@@ -76,5 +87,5 @@ Luettu: 06.02.2024.
 Karvinen, T. First steps on a new virtual private server - an example on DigitalOcean and Ubuntu 16.04 LTS. 19.09.2017. Luettavissa: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 Luettu: 06.02.2024.
 
-Karvinen, T. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+Karvinen, T. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. 10.04.2018. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 Luettu 08.02.2024.
