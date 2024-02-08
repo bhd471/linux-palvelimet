@@ -53,6 +53,8 @@ Seuraavaksi asensin Apachen virtuaalikoneelleni (Karvinen, 10.04.2018). Loin uud
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/d3ff48d0-09e6-4319-964e-ed8b15097e25)
 
+Kokeilin useammalla laitteella sivun janikapenttinen.com toimivuutta. 
+
 
 ## d) Domainin vuokraaminen
 
