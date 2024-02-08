@@ -10,7 +10,7 @@
 
 - Päivitetään kaikki palvelimen ohjelmat
 
-(Lehto, 14.02.2022.)
+ (Lehto, 14.02.2022.)
 
 ### First Steps on a New Virtual Private Server
 
