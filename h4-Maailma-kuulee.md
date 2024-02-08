@@ -29,8 +29,42 @@ Aloin luomaan uutta virtuaalipalvelinta kohdasta "Droplets". Sivun mukaan palvel
 
 ## b) Alkutoimet omalla palvelimella
 
-Aloitan luomalla SSH-avaimet virtuaalikoneellani. Syötin komentoriville komennon ´ssh-keygen´. 
-Seuraavaksi lähdin avaamaan omaa virtuaalikonettani, jonka komentoriville syötin komennon `ssh root@159.65.194.165`.
+Aloitan asentamalla SSH-ohjelman virtuaalikoneelleni, suorittamalla ensin komennon `sudo apt-get update` ja sen jälkeen `sudo apt-get install ssh`. Seuraavaksi komentoriville syötin komennon `ssh root@159.65.194.165`. Minulta pyydettiin virtuaalipalvelimeni salasanaa, jonka syötin. Sain yhteyden palvelimelleni, ja hain päivitykset `sudo apt-get update` komennolla. 
+
+Asensin tulimuurin komennolla `sudo apt-get install ufw`. Tein reiän tulimuuriin komennolla `sudo ufw allow 22/tcp` ja laitoin muurin päälle `sudo ufw enable`.
+
+
+
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/7c1a1f2a-524a-4e5d-bbfc-344874cb1380)
+
+Aloin asentamaan weppipalvelinta uudelle virtuaalipalvelimelleni. 
+
+Suoritin komentorivillä komennon `sudo adduser janika`, joka luo palvelimelle käyttäjän. Keksin vahvan salasanan, ja syötin kokonimeni. Muut kohdat jätin tyhjäksi. Annoin käyttäjälle pääkäyttäjän oikeudet komennolla `sudo adduser janika sudo`. Avasin uuden terminaalin, ja kokeilin käyttäjän toimivuutta. Päivitin päivitystiedot onnistuneesti.
+
+Suljin root-tunnuksen komennolla `sudo usermod --lock root`. Suljen vielä kirjautumisen SSH- kautta komennolla `sudoedit /etc/ssh/aahd_config`. Lisäsin avautuvaan nanotiedostoon tekstin PermitRootLogin no. Suoritin vielä komennon `sudo service ssh restart`.
+
+## c) Weppipalvelimen asentaminen
+
+Kirjauduin SSH-yhteydellä palvelimelleni sisään. Asennan päivitykset komennoilla `sudo apt-get update` ja `sudo apt-get upgrade`. Tein toisen reiän tulimuuriin komennolla `sudo ufw allow 80/tcp`. 
+
+Seuraavaksi asensin Apachen virtuaalikoneelleni (Karvinen, 10.04.2018). Loin uuden kansion 'netti' palvelinta varten.  Korvasin testisivun komennolla `echo "Default"|sudo tee /var/www/html/index.html`. 
+
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/d3ff48d0-09e6-4319-964e-ed8b15097e25)
+
+
+## d) Domainin vuokraaminen
+
+Siirryin NameCheapin sivuille valitsemaan domain-nimeä. Päädyin nimeen janikapenttinen.com. Sivustolla oli uusille käyttäjille tarjous, jolla saisin nimen hintaan 5,98 dollaria/vuosi. Vuokraaminen oli simppeliä.
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/74cfc86c-09f1-44f0-994e-c76754e5f6b8)
+
+Seuraavaksi lähdin ohjaamaan domainia virtuaalipalvelimelle. Domain list -> Advanced DNS ->  Host records. Loin tähän kohtaan kaksi uutta tiedostoa. Ensimmäiselle hostiksi www, valueksi virtuaalipalvelimen IP-osoite ja TTL- 5 min välein. Toiselle hostiksi @, muuten samat valinnat.
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/ea39207c-6f8d-4ea5-98c2-6a162420e41f)
+
+
 
 ### Lähdeluettelo
 
@@ -39,3 +73,6 @@ Luettu: 06.02.2024.
 
 Karvinen, T. First steps on a new virtual private server - an example on DigitalOcean and Ubuntu 16.04 LTS. 19.09.2017. Luettavissa: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 Luettu: 06.02.2024.
+
+Karvinen, T. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+Luettu 08.02.2024.
