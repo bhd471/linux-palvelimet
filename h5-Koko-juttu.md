@@ -79,6 +79,29 @@ Asennetaan Apache // klo 14.27
   - Siirrytään hakemistoon `cd /etc/apache2/sites-available/`
   - Sammutetaan default-palvelin `sudo a2dissite 000-default.conf`
   - Käynnistetään apache restart- komennolla uudelleen
+
+  Luodaan sivu tavallisena käyttäjänä // Klo 14.55
+
+  - Komennolla `mkdir -p /home/janikap/webbi/janikap.example.com/`
+  - Lisätään teksti sivulle `echo heippa > /home/janikap/webbi/janikap.example.com/index.html`
+
+  Tilanne sivulla tällä hetkellä:
+  ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/a1fb56db-e23d-401a-b4b3-8bcd4cf5e4f0)
+
+  Lähdetään selvittämään mistä ongelma johtuu // Klo. 15.05
+
+  - Suoritan terminaalissa komennon `sudo tail -10 /var/log/apache2/error.log
+  - Ensimmäisenä silmään pistää kirjoitusvirhe "/home/janikap/webbi/janikap.exaple.com"
+  - Kirjoitusvirhe löytyi Virtual Host-asetuksista DocumentRootista
+  - Käynnistän apache-palvelimen uudelleen restart-komennolla
+  - Sivun ongelma ei kuitenkaan johtunut tästä, joten suuntaan uudelleen tutkimaan lokitiedostoja
+   Klo 15.30 // Päädyn jatkamaan tehtävän suorittamista toisena ajankohtana
+    
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/3b09807d-5906-4a37-8c6e-2984860679e3)
+
+  
+  
+
   - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/70cdd249-ddac-41b3-8c86-1c549f52226c)
 
  
