@@ -108,7 +108,7 @@ Asennetaan uusi virtuaalikone, jolle tehdään alkutoimet, asennetaan Apache-wep
  
 
     
-## B) Pubkey 
+# Pubkey 
 
 #### Julkinen SSH-avain // klo 14.05
 
@@ -124,7 +124,7 @@ Asennetaan uusi virtuaalikone, jolle tehdään alkutoimet, asennetaan Apache-wep
   
 
 
-  ## C) Digging host 
+  # Digging host 
   
   #### Domain-nimen tutkiminen // klo. 14.25
 
