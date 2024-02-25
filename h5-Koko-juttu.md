@@ -16,7 +16,7 @@ Aloin tutkimaan tehtävänantoa.
 - Painetaan finish -> Virtuaalikone on nyt luotu
 
 - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/526bdc41-e008-4bec-bd2c-bf2ee8e60d83)
-- ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/408b63c0-7496-457d-b559-1b1006a5fe46)
+
 
 - Siirryn koneen asetuksiin -> Storage -> Controller: IDE alapuolella tyhjä CDROM  -> Painetaan siitä, oikealla aukeaa valikko -> Optical Drive: Choose virtual optical disk file .. -> Valitaan "debian-live-12.4.0-amd64-xfce.iso" -> Painetaan OK
 
