@@ -98,14 +98,35 @@ Asennetaan Apache // klo 14.27
    Klo 15.30 // Päädyn jatkamaan tehtävän suorittamista toisena ajankohtana
 
 
-  ### 25.02.2024 klo. 13.25
+  ### 25.02.2024 klo. 13.35
 
   - Päätän jatkaa ongelman selvittämistä, kuitenkin käynnistettäessä localhost-sivu, virheilmoitusta ei enää jostain syystä tule
   - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/dccaabe2-fbeb-47a4-8d63-23be795a7db5)
+ 
+  - Lähden asentamaan SSH-palvelinta koneelle `sudo apt-get update` ja `sudo apt-get install ssh`
+    
+### B) Pubkey klo 14.05
 
-### B) Pubkey
+- Syötin terminaaliin komennon `ssh janikap@localhost`, tuli varmistus haluanko jatkaa yhdistämistä
+- Syötin käyttäjän salasanan
+- Suoritan komennon `ssh-keygen -t rsa` ja `ssh-copy-id janikap@localhost`
+- Käynnistän SSH-palvelimen uudelleen `sudo systemctl restart ssh`
+- Pääsen kirjautumaan palvelimelle komennolla `ssh janikap@localhost`
+- 
+- ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/3205f93a-bb73-433b-8cb7-5c26f89f7b9f)
 
 - 
+- ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/d6abfbce-eb16-4976-8069-4fb672c2b953)
+
+
+  ### C) Digging host // klo. 14.25
+
+  - Kirjaudun alkuperäiselle virtuaalikoneelleni voidakseni tutkia domain-nimeni tietoja
+  - Suoritan terminaalilla komennon `sudo apt-get -y install bind9-dnsutils bind9-host`, joka asentaa käyttöön `host` ja `dig` komennot
+  - `host janikapenttinen.com` komento ilmoittaa domainin IP-osoitteen
+  - `dig janikapenttinen.com` komento ilmoittaa domainin IP-osoitteen ja sen TTL
+  
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/9a0eace6-9a91-41c5-a094-0017cdf48f5a)
 
      
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/3b09807d-5906-4a37-8c6e-2984860679e3)
@@ -135,4 +156,7 @@ Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Window
 ### Lähdeluettelo
 
 Karvinen, T. H5 - Koko juttu, Linux-palvelimet kurssi. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu 15.02.2024.
+
+University Information Technology Services. Set up SSH public key authentication to connect to a remote system. 18.01.2024. Luettavissa: https://kb.iu.edu/d/aews Luettu 25.02.2024.
+
 
