@@ -1,6 +1,6 @@
 ## A) Koko juttu
 
-### Alan suorittamaan tehtävää // 15.02.2024 Klo 13.30. 
+#### Alan suorittamaan tehtävää // 15.02.2024 Klo 13.30. 
 
 
 - Avaan VirtualBoxin
@@ -50,7 +50,7 @@
 - Käynnistetään kone uudelleen
 
 #### Asennus on valmistunut ja virtuaalikone on käynnistetty uudelleen // Klo 14.07
-
+->
 #### Aloitetaan alkutoimien tekeminen // klo 14.15
 
 - Avataan terminaalin työpöydän alareunasta ja suoritetaan komento `sudo apt-get update`, joka päivittää listan mahdollisista saatavilla olevista päivityksistä
@@ -63,7 +63,7 @@
 - Käynnistetään kone uudelleen
   
 
-Asennetaan Apache // klo 14.27
+#### Asennetaan Apache // klo 14.27
 
 - Avataan terminaali ja suoritetaan komento `sudo apt-get -y install apache2`, joka asentaa Apache-weppipalvelimen koneelle
 - Korvataan testisivu komennolla `echo "Moikka"|sudo tee /var/www/html/index.html`
@@ -80,7 +80,7 @@ Asennetaan Apache // klo 14.27
   - Sammutetaan default-palvelin `sudo a2dissite 000-default.conf`
   - Käynnistetään apache restart- komennolla uudelleen
 
-  Luodaan sivu tavallisena käyttäjänä // Klo 14.55
+  #### Luodaan sivu tavallisena käyttäjänä // Klo 14.55
 
   - Komennolla `mkdir -p /home/janikap/webbi/janikap.example.com/`
   - Lisätään teksti sivulle `echo heippa > /home/janikap/webbi/janikap.example.com/index.html`
