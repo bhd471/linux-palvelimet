@@ -74,7 +74,7 @@
   - Komennolla `sudoedit /etc/apache2/sites-available/janikap.example.com.conf` luodaan uusi nano-tekstitiedosto, johon täytetään Virtual Host-tiedot, jotka näkyvät alapuolella olevassa kuvassa
   - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/6cc1f30c-6409-4de0-81ec-7d4782e8e257)
  
-  - Komennolla `sudo a2ensite janikap.example.com`
+  - Komennolla `sudo a2ensite janikap.example.com` otetaan sivu käyttöön
   - Komennolla `sudo systemctl restart apache2` käynnistetään weppipalvelin uudelleen
   - Siirrytään hakemistoon `cd /etc/apache2/sites-available/`
   - Sammutetaan default-palvelin `sudo a2dissite 000-default.conf`
@@ -82,7 +82,7 @@
 
   #### Luodaan sivu tavallisena käyttäjänä // Klo 14.55
 
-  - Komennolla `mkdir -p /home/janikap/webbi/janikap.example.com/`
+  - Komennolla `mkdir -p /home/janikap/webbi/janikap.example.com/`luodaan hakemisto
   - Lisätään teksti sivulle `echo heippa > /home/janikap/webbi/janikap.example.com/index.html`
 
   Tilanne sivulla tällä hetkellä:
@@ -125,7 +125,7 @@
 
   ## C) Digging host 
   
-  Domain-nimen tutkiminen // klo. 14.25
+  #### Domain-nimen tutkiminen // klo. 14.25
 
   - Kirjaudun alkuperäiselle virtuaalikoneelleni voidakseni tutkia domain-nimeni tietoja
   - Suoritan terminaalilla komennon `sudo apt-get -y install bind9-dnsutils bind9-host`, joka asentaa käyttöön `host` ja `dig` komennot
