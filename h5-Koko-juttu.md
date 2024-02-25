@@ -45,7 +45,7 @@
 - Partitions -> Valitaan Erase disk
 - Luodaan käyttäjä -> Täyttetään oma kokonimi, käyttäjä jolla kirjaudutaan sisään, valitaan koneelle nimi ja luodaan vahva salasana
 - Yhteenveto
-  ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/0a6c4d36-7ea6-475b-8d63-b7d64b83d64d)
+  - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/0a6c4d36-7ea6-475b-8d63-b7d64b83d64d)
 - Painetaan Install
 - Käynnistetään kone uudelleen
 
