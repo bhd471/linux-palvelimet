@@ -130,7 +130,8 @@
   - Kirjaudun alkuperäiselle virtuaalikoneelleni voidakseni tutkia domain-nimeni tietoja
   - Suoritan terminaalilla komennon `sudo apt-get -y install bind9-dnsutils bind9-host`, joka asentaa käyttöön `host` ja `dig` komennot
   - `host janikapenttinen.com` komento ilmoittaa domainin IP-osoitteen
-  - `dig janikapenttinen.com` komento ilmoittaa domainin IP-osoitteen ja sen TTL
+  - `dig janikapenttinen.com` komento ilmoittaa domainin IP-osoitteen ja sen TTL. NOERROR tarkoittaa ettei ole virheitä, Answer section kertoo mitä domainia kysyin.
+    (Linux.fi-wiki, 19.01.2021)
   
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/9a0eace6-9a91-41c5-a094-0017cdf48f5a)
 
@@ -158,10 +159,14 @@ VM speksit:
 
 ### Lähdeluettelo
 
-Karvinen, T. H5 - Koko juttu, Linux-palvelimet kurssi. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu 15.02.2024.
+Karvinen, T. H5 - Koko juttu, Linux-palvelimet kurssi. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ 
+Luettu 15.02.2024.
 
 Karvinen, T. 10.04.2018. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ 
 Luettu 15.02.2024.
+
+Linux.fi-wiki. 19.01.2021. Dig. Suomenkielinen Linux-wiki. Luettavissa: https://www.linux.fi/wiki/Dig
+Luettu 25.02.2024.
 
 
 
