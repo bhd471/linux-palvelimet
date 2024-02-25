@@ -96,7 +96,12 @@ Asennetaan Apache // klo 14.27
   - Käynnistän apache-palvelimen uudelleen restart-komennolla
   - Sivun ongelma ei kuitenkaan johtunut tästä, joten suuntaan uudelleen tutkimaan lokitiedostoja
    Klo 15.30 // Päädyn jatkamaan tehtävän suorittamista toisena ajankohtana
-    
+
+
+  ### 25.02.2024 klo. 13.25
+
+  - Jatkan ongelman selvittämistä
+  - 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/3b09807d-5906-4a37-8c6e-2984860679e3)
 
   
