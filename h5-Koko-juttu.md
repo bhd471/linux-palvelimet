@@ -88,14 +88,15 @@
   Tilanne sivulla tällä hetkellä:
   ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/a1fb56db-e23d-401a-b4b3-8bcd4cf5e4f0)
 
-  Lähdetään selvittämään mistä ongelma johtuu // Klo. 15.05
+ #### Lähdetään selvittämään mistä ongelma johtuu // Klo. 15.05
 
   - Suoritan terminaalissa komennon `sudo tail -10 /var/log/apache2/error.log
   - Ensimmäisenä silmään pistää kirjoitusvirhe "/home/janikap/webbi/janikap.exaple.com"
   - Kirjoitusvirhe löytyi Virtual Host-asetuksista DocumentRootista
   - Käynnistän apache-palvelimen uudelleen restart-komennolla
   - Sivun ongelma ei kuitenkaan johtunut tästä, joten suuntaan uudelleen tutkimaan lokitiedostoja
-   Klo 15.30 // Päädyn jatkamaan tehtävän suorittamista toisena ajankohtana
+  
+  #### Päädyn jatkamaan tehtävän suorittamista toisena ajankohtana // Klo 15.30
 
 
   #### Tehtävän suorittaminen jatkuu // 25.02.2024 klo. 13.35
@@ -139,13 +140,28 @@
 
 ### Oma käyttöympäristö
 
-Käytin tehtävän suorittamiseen Acer Nitro N50-620 työasemaa, jolla on Windows 11 käyttöjärjestelmä. Työasemassani on Intel Core i5-prosessori, NVIDIA GeForce RTX 3060 Ti-näytönohjain, 16 Gt RAM-muistia sekä 1 TB tallennustilaa.
+Oman koneen speksit:
+
+- Acer Nitro N50-620 työasema
+- Windows 11 käyttöjärjestelmä
+- Intel Core i5-prosessori
+- NVIDIA GeForce RTX 3060 Ti-näytönohjain
+- 16 Gt RAM-muistia
+- 1 TB tallennustilaa
+
+VM speksit:
+
+- Debian 12 Bookworm 64-bit
+- Base memory 4000 MB
+- Storage 60 GB
 
 
 ### Lähdeluettelo
 
 Karvinen, T. H5 - Koko juttu, Linux-palvelimet kurssi. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ Luettu 15.02.2024.
 
-University Information Technology Services. Set up SSH public key authentication to connect to a remote system. 18.01.2024. Luettavissa: https://kb.iu.edu/d/aews Luettu 25.02.2024.
+Karvinen, T. 10.04.2018. Name Based Virtual Hosts on Apache - Multiple Websites to Single IP Address. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ 
+Luettu 15.02.2024.
+
 
 
