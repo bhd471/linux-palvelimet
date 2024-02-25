@@ -98,7 +98,7 @@
    Klo 15.30 // Päädyn jatkamaan tehtävän suorittamista toisena ajankohtana
 
 
-  ### 25.02.2024 klo. 13.35
+  #### Tehtävän suorittaminen jatkuu // 25.02.2024 klo. 13.35
 
   - Päätän jatkaa ongelman selvittämistä
   - Huomaan, että virheilmoitusta ei jostain syystä enää tule
@@ -106,7 +106,9 @@
  
 
     
-## B) Pubkey // klo 14.05
+## B) Pubkey 
+
+#### Julkinen SSH-avain // klo 14.05
 
 - Lähden asentamaan SSH-palvelinta koneelle `sudo apt-get update` ja `sudo apt-get install ssh`
 - Syötin terminaaliin komennon `ssh janikap@localhost`, varmistus haluanko jatkaa yhdistämistä
@@ -120,7 +122,9 @@
   
 
 
-  ### C) Digging host // klo. 14.25
+  ## C) Digging host 
+  
+  Domain-nimen tutkiminen // klo. 14.25
 
   - Kirjaudun alkuperäiselle virtuaalikoneelleni voidakseni tutkia domain-nimeni tietoja
   - Suoritan terminaalilla komennon `sudo apt-get -y install bind9-dnsutils bind9-host`, joka asentaa käyttöön `host` ja `dig` komennot
@@ -130,22 +134,6 @@
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/9a0eace6-9a91-41c5-a094-0017cdf48f5a)
 
      
-![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/3b09807d-5906-4a37-8c6e-2984860679e3)
-
-  
-  
-
-  - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/70cdd249-ddac-41b3-8c86-1c549f52226c)
-
- 
-
-  
-
-
-
-![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/96b9376e-dfdf-42df-b7b8-bd3ed51e89a6)
-
-![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/50aba0b8-f7ba-410c-849b-449daed5dcae)
 
 
 
