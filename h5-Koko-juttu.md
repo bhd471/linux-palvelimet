@@ -34,7 +34,7 @@ Aloin tutkimaan tehtävänantoa.
 - Suljen selaimen
 
 - Tuplaklikkaan työpöydältä kuvaketta Install Debian
-- Työpödälle aukeaa ponnahdusikkuna, joka varoittaa
+- Työpödälle aukeaa ponnahdusikkuna, painetaan Mark Executable
 -
 - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/29d35437-6588-4818-ba69-371aa8e7a684)
 
