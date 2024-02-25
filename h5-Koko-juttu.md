@@ -100,8 +100,14 @@ Asennetaan Apache // klo 14.27
 
   ### 25.02.2024 klo. 13.25
 
-  - Jatkan ongelman selvittämistä
-  - 
+  - Päätän jatkaa ongelman selvittämistä, kuitenkin käynnistettäessä localhost-sivu, virheilmoitusta ei enää jostain syystä tule
+  - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/dccaabe2-fbeb-47a4-8d63-23be795a7db5)
+
+### B) Pubkey
+
+- 
+
+     
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/3b09807d-5906-4a37-8c6e-2984860679e3)
 
   
