@@ -26,7 +26,7 @@
 - ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/6a81c83e-9742-4766-809f-4ab49397e6d0)
 
 - Live-työpöytä aukeaa -> avataan vasemmasta yläreunasta Applications -> Web browser ja testataan verkon toimintaa hakemalla janikapenttinen.com -> Toimii
-- 
+  
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/eed5ce60-dadb-41b0-9d10-f5f5a9a4c3bd)
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/a8b9ad54-5416-432d-8b7d-845e76cf1139)
@@ -36,7 +36,7 @@
 - Tuplaklikkaan työpöydältä kuvaketta Install Debian
 - Työpödälle aukeaa ponnahdusikkuna, painetaan Mark Executable
 
-- ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/29d35437-6588-4818-ba69-371aa8e7a684)
+ ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/29d35437-6588-4818-ba69-371aa8e7a684)
 
 
 - Ensimmäisenä latausikkunaan tulee näkyviin kielivalikko -> Valitaan kieleksi American English -> Next
@@ -45,15 +45,15 @@
 - Partitions -> Valitaan Erase disk
 - Luodaan käyttäjä -> Täyttetään oma kokonimi, käyttäjä jolla kirjaudutaan sisään, valitaan koneelle nimi ja luodaan vahva salasana
 - Yhteenveto
--   ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/0a6c4d36-7ea6-475b-8d63-b7d64b83d64d)
+  ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/0a6c4d36-7ea6-475b-8d63-b7d64b83d64d)
 - Painetaan Install
 - Käynnistetään kone uudelleen
 
-Klo 14.07 - asennus on valmistunut ja virtuaalikone on käynnistetty uudelleen
+#### Asennus on valmistunut ja virtuaalikone on käynnistetty uudelleen // Klo 14.07
 
-Aloitetaan alkutoimien tekeminen // klo 14.15
+#### Aloitetaan alkutoimien tekeminen // klo 14.15
 
-- Avataan terminaali työpöydän alareunasta ja suoritetaan komento `sudo apt-get update`, joka päivittää listan mahdollisista saatavilla olevista päivityksistä
+- Avataan terminaalin työpöydän alareunasta ja suoritetaan komento `sudo apt-get update`, joka päivittää listan mahdollisista saatavilla olevista päivityksistä
 - Käytettäessä `sudo` komentoja, terminaali saattaa pyytää käyttäjän salasanaa, jolloin kirjoittaessa teksti ei tule terminaaliin näkyviin. Tästä ei kannata hämmentyä
 - Päivitetään kaikki komennolla `sudo apt-get -y dist-upgrade`. Tässä meni n. 3-4 min.
 - Ladataan koneelle tulimuuri komennolla `sudo apt-get -y install ufw`
