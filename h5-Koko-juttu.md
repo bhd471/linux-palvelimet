@@ -1,4 +1,4 @@
-## Koko juttu
+# Koko juttu
 
 Asennetaan uusi virtuaalikone, jolle tehdään alkutoimet, asennetaan Apache-weppipalvelin sekä SSH-palvelin. Luodaan etusivu palvelimelle, viritellään julkinen SSH-avain.
 #### Alan suorittamaan tehtävää // 15.02.2024 Klo 13.30. 
