@@ -1,7 +1,23 @@
 
 ## Tiivistelmä
 
+## Ohjelma Djangolla
+
+- Aloitan uuden projektin `django-admin startproject janiikki`
+- Siirryn kansioon `cd janiikki`
+- Käynnistän palvelimen ja lisään muistutuksen siitä, ettei testipalvelinta julkaista verkkoon `./manage.py runserver # development server, don't expose to the internet`
+- Siirryn osoitteeseen http://127.0.0.1:8000/
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/dc83f702-a57d-4834-bc39-004425f76c78)
+
+### Admin
+
+- Päivitetään tietokannat `./manage.py makemigrations` `./manage.py migrate`
+- Lisätään käyttäjä, asennetaan pwgen-ohjelma ja generoidaan satunnainen salasana `sudo apt-get install pwgen` `pwgen -s 20 1 # randomize a password`
+- `./manage.py createsuperuser`
 ## Djangon tuotantotyyppinen asennus
+
+Asennukseen kului aikaa noin 45 minuuttia. 
 
 - Aloitan päivittämällä paketit `sudo apt-get update`
 - Luon uuden hakemiston `mkdir -p publicwsgi/teroco/static/`
@@ -27,6 +43,16 @@
 ### Asennetaan Django virtuaaliympäristöön
 
 - Aktivoidaan virtuaaliympäristö `source env/bin/activate`
+- Tarkistetaan, että pip sijaitsee oikeassa hakemistossa `which pip`
+- Luon uuden tekstitiedoston `micro requirements.txt`
+- Kirjoitan tekstitiedostoon "django"
+- Asennetaan `pip install -r requirements.txt`
+- Testataan, asentuiko Django `django-admin --version`
+- Asennus onnistui
+
+  ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/5d93320d-3854-426b-8507-3dbf7aefc9f5)
+
+
 
 
 ### Lähdeluettelo
