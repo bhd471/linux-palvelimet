@@ -1,6 +1,6 @@
 
 ## Tiivistelmä
-
+Suoritin tehtävät Tero Karvisen ohjeiden pohjalta https://terokarvinen.com/2022/deploy-django/ sekä https://terokarvinen.com/2022/django-instant-crm-tutorial/ .
 ## Ohjelma Djangolla
 
 - Aloitan uuden projektin `django-admin startproject janiikki`
@@ -92,4 +92,8 @@ Asennukseen kului aikaa noin 45 minuuttia.
 
 
 ### Lähdeluettelo
+Luettavissa: https://terokarvinen.com/2022/deploy-django/
+Luettu 27.02.2024.
 
+Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/
+Luettu 03.03.2024.
