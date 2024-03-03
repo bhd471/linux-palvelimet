@@ -1,5 +1,5 @@
 # H6 - DJ Ango
-Tämän viikon kotitehtävässä tein tiivistelmän Tero Karvisen artikkeleista [Deploy Django 4 - Production Install](https://terokarvinen.com/2022/deploy-django/) sekä [Django 4 Instant Customer Database Tutorial]https://terokarvinen.com/2022/django-instant-crm-tutorial/.
+Tämän viikon kotitehtävässä tein tiivistelmän Tero Karvisen artikkeleista [Deploy Django 4 - Production Install](https://terokarvinen.com/2022/deploy-django/) sekä [Django 4 Instant Customer Database Tutorial](https://terokarvinen.com/2022/django-instant-crm-tutorial/).
 ## Tiivistelmä
 
 ## Ohjelma Djangolla
