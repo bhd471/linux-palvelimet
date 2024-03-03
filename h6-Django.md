@@ -1,6 +1,23 @@
 # H6 - DJ Ango
 Tämän viikon kotitehtävässä tein tiivistelmän Tero Karvisen artikkeleista [Deploy Django 4 - Production Install](https://terokarvinen.com/2022/deploy-django/) (Karvinen, 2022) ja [Django 4 Instant Customer Database Tutorial](https://terokarvinen.com/2022/django-instant-crm-tutorial/) (Karvinen, 2022). Näitä artikkeleja seuraten tein esimerkkiohjelman Djangolla sekä Djangon tuotantotyyppisen asennuksen. 
 ## Tiivistelmä
+### [Deploy Django 4 - Production Install](https://terokarvinen.com/2022/deploy-django/)
+
+- Päivitetään paketit `sudo apt-get update` ja asennetaan Apache2 ` sudo apt-get -y install apache2`
+- Korvataan testisivu `echo "Stay tuned"|sudo tee /var/www/html/index.html, kokeillaan verkkoselaimella osoitteessa http://localhost
+- Hakemiston ja sisällön luominen `mkdir -p publicwsgi/janika/static/`, `echo "Stay tuned"|tee publicwsgi/janika/static/index.html`
+- Luodaan uusi VirtualHost
+- Käynnistetään uusi sivu ja otetaan vanhat pois käytöstä `sudo a2ensite`, `sudo a2dissite`
+- Tarkistetaan konfiguraatio `/sbin/apache2ctl configtest`
+- Käynnistetään palvelin uudelleen `sudo systemctl restart apache2`
+- Testataan toimiiko `curl http://localhost/static/`
+
+### [Django 4 Instant Customer Database Tutorial](https://terokarvinen.com/2022/django-instant-crm-tutorial/)
+
+
+
+
+
 
 ## Ohjelma Djangolla
 
