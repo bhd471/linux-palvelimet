@@ -13,8 +13,44 @@
 ### Admin
 
 - Päivitetään tietokannat `./manage.py makemigrations` `./manage.py migrate`
-- Lisätään käyttäjä, asennetaan pwgen-ohjelma ja generoidaan satunnainen salasana `sudo apt-get install pwgen` `pwgen -s 20 1 # randomize a password`
-- `./manage.py createsuperuser`
+- Asennetaan pwgen-ohjelma ja generoidaan satunnainen salasana `sudo apt-get install pwgen` `pwgen -s 20 1 # randomize a password`
+- Luodaan käyttäjä `./manage.py createsuperuser`
+- Käynnistän palvelimen `./manage.py runserver`, kokeilen toimivuutta selaimessa -> Toimii, pääsen kirjautumaan sisään
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/c1468430-f094-4f37-bb24-ca8010f6c484)
+
+### Customer Database
+
+- Luodaan uusi hakemisto $ ./manage.py startapp crm
+- Avataan micro-tiedosto `micro janiikki/settings.py`, lisätään INSTALLED_APPS-kohtaan alimmaiseksi 'crm'
+  
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/8b2df5d9-3aea-4258-89e7-ff32ac12aea7)
+
+- Avataan micro-tiedosto `micro crm/models.py` ja lisätään malleja
+  
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/35c6c00e-6c58-4e56-b913-406b3f2e07cf)
+
+- Päivitetään tietokannat `./manage.py makemigrations` `./manage.py migrate`
+- Avataan micro-tiedosto `micro crm/admin.py`, rekisteröidään tietokanta
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/3a5d0db9-c8e2-4fb2-9efd-1b3a88f2ce53)
+
+- Käynnistetään palvelin `./manage.py runserver`
+- Avataan sivu http://127.0.0.1:8000/admin/ ja kirjaudutaan sisään
+- Lisätään vasemmasta reunasta Add-napista asiakkaita tietokantaan
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/1efa3978-ad02-4b97-b008-11c4bd113925)
+
+### Lisätään asiakkaiden nimet näkyviin 
+
+- Avataan micro-editori `micro crm/models.py`
+- Tehdään alapuolella näkyvät muutokset
+ ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/9e188549-3336-4f5e-92bf-7b02e77ec7b3)
+- Käynnistetään palvelin `./manage.py runserver`
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/86649538-db3b-4e66-9061-3b53504b8b9c)
+
+
 ## Djangon tuotantotyyppinen asennus
 
 Asennukseen kului aikaa noin 45 minuuttia. 
