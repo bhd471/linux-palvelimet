@@ -17,7 +17,7 @@
 - Käynnistetään apache uudelleen `sudo systemctl restart apache2`
 - Tarkistetaan vielä, että localhost/static/ sivu näkyy oikein `curl http://localhost/static/`
 
-![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/145d9c49-74e8-4809-b3ce-cf2c4275a43d)
+
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/527bf25a-5981-4834-b07e-470b12e0847f)
 
 - Asennetaan VirtuelEnv `sudo apt-get -y install virtualenv`
