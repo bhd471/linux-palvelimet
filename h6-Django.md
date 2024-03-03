@@ -117,11 +117,31 @@ Suoritan vielä komennon `./manage.py collectstatic`. Käynnistin palvelimen, en
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/9525e693-06fe-4453-a765-76d37e17138a)
 
+## Oma käyttöympäristö
+
+Oman koneen speksit:
+
+Acer Nitro N50-620 työasema
+Windows 11 käyttöjärjestelmä
+Intel Core i5-prosessori
+NVIDIA GeForce RTX 3060 Ti-näytönohjain
+16 Gt RAM-muistia
+1 TB tallennustilaa
+
+VM speksit:
+
+Debian 12 Bookworm 64-bit
+Base memory 4000 MB
+Storage 60 GB
+
 
 
 ### Lähdeluettelo
-Luettavissa: https://terokarvinen.com/2022/deploy-django/
+Karvinen, T. H6- DJ Ango, Linux-palvelimet kurssi. Tero Karvisen verkkosivut. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
 Luettu 27.02.2024.
 
-Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/
+Karvinen, T. 13.02.2022.Deploy Django 4 - Production Install. Luettavissa: https://terokarvinen.com/2022/deploy-django/
+Luettu 27.02.2024.
+
+Karvinen, T. 13.02.2022. Django 4 Instant Customer Database Tutorial. Luettavissa: https://terokarvinen.com/2022/django-instant-crm-tutorial/
 Luettu 03.03.2024.
