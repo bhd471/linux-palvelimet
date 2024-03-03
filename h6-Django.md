@@ -1,6 +1,7 @@
-
+# H6 - DJ Ango
+Tämän viikon kotitehtävässä tein tiivistelmän Tero Karvisen artikkeleista https://terokarvinen.com/2022/deploy-django/ sekä https://terokarvinen.com/2022/django-instant-crm-tutorial/.
 ## Tiivistelmä
-Suoritin tehtävät Tero Karvisen ohjeiden pohjalta https://terokarvinen.com/2022/deploy-django/ sekä https://terokarvinen.com/2022/django-instant-crm-tutorial/ .
+
 ## Ohjelma Djangolla
 
 - Aloitan uuden projektin `django-admin startproject janiikki`
