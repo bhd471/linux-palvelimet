@@ -74,7 +74,7 @@ Käynnistetään palvelin `./manage.py runserver`
 
 Asennukseen kului aikaa noin 45 minuuttia. 
 
-Aloitan päivittämällä paketit `sudo apt-get update`. Luon uuden hakemiston `mkdir -p publicwsgi/teroco/static/`. Lisään tekstiä sivulle `echo "Stay tuned"|tee publicwsgi/janika/static/index.html`. Alan luomaan uutta VirtualHostia `sudoedit /etc/apache2/sites-available/janiikki.com.conf`
+Aloitan päivittämällä paketit `sudo apt-get update`. Luon uuden hakemiston `mkdir -p publicwsgi/janika/static/`. Lisään tekstiä sivulle `echo "Stay tuned"|tee publicwsgi/janika/static/index.html`. Alan luomaan uutta VirtualHostia `sudoedit /etc/apache2/sites-available/janiikki.com.conf`
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/55628ad9-2c98-41e5-96ba-e23b52afda3c)
 
