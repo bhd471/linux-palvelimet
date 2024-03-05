@@ -59,7 +59,7 @@ Päivitetään tietokannat `./manage.py makemigrations` `./manage.py migrate`. A
 
 Käynnistetään palvelin `./manage.py runserver`. Avataan sivu http://127.0.0.1:8000/admin/ ja kirjaudutaan sisään. Lisätään vasemmasta reunasta Add-napista asiakkaita tietokantaan
 
-![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/1efa3978-ad02-4b97-b008-11c4bd113925)
+
 
 ### Lisätään asiakkaiden nimet näkyviin 
 
