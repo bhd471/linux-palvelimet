@@ -109,7 +109,7 @@ Käynnistän weppipalvelimen uudelleen `sudo systemctl restart apache2`. Kokeile
 Siirryn asetustiedostoon `micro janiikki/settings.py`. Muokkaan sinne
     DEBUG = False
     ALLOWED_HOSTS = ["localhost"]
-Tämän jälkeen syötin komennon `touch teroco/wsgi.py`, ja käynnistin palvelimen uudelleen `sudo systemctl restart apache2`.
+Tämän jälkeen syötin komennon `touch janiikki/wsgi.py`, ja käynnistin palvelimen uudelleen `sudo systemctl restart apache2`.
 Siirryn taas asetustiedostoon `micro janiikki/settings.py`. Lisään sinne alla näkyvät tiedot.
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/b31af790-d02f-4cf3-8e77-39580ce6b1c9)
 
