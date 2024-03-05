@@ -121,18 +121,18 @@ Suoritan vielä komennon `./manage.py collectstatic`. Käynnistin palvelimen, en
 
 Oman koneen speksit:
 
-Acer Nitro N50-620 työasema
-Windows 11 käyttöjärjestelmä
-Intel Core i5-prosessori
-NVIDIA GeForce RTX 3060 Ti-näytönohjain
-16 Gt RAM-muistia
-1 TB tallennustilaa
+- Acer Nitro N50-620 työasema
+- Windows 11 käyttöjärjestelmä
+- Intel Core i5-prosessori
+- NVIDIA GeForce RTX 3060 Ti-näytönohjain
+- 16 Gt RAM-muistia
+- 1 TB tallennustilaa
 
 VM speksit:
 
-Debian 12 Bookworm 64-bit
-Base memory 4000 MB
-Storage 60 GB
+- Debian 12 Bookworm 64-bit
+- Base memory 4000 MB
+- Storage 60 GB
 
 
 
