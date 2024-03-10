@@ -9,7 +9,7 @@ Komennolla `chmod a+x moivaan.sh` annan kaikille käyttäjille oikeuden komennon
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/72326c0d-0e6d-4711-8708-f373302933d3)
 
-## C) Laboratorioharjoitus // klo 17.10-
+## C) Laboratorioharjoitus // klo 17.10-17.53
 
 Loin tehtävää varten uuden Linux Debian -virtuaalikoneen, johon tein päivitykset ja asensin tulimuurin & kytkin sen päälle. Asennan koneelle Apache-weppipalvelimen komennolla sudo apt-get -y install apache2. Luon Maijalle käyttäjän komennolla sudo adduser maija. Kirjaudun sisään käyttäjälle maija ja luon uuden kansion mkdir public_html. Tässä vaiheessa päätän kuitenkin kirjautua takaisin omalle käyttäjälleni ja luoda maijan sivut pääkäyttäjän oikeuksin. Luon nano-tekstitiedoston komennolla `sudoedit nano /home/maija/public_html/index.html` ja kirjoitan tiedostoon HTML5-koodia. Sivua ei kuitenkaan löydy.
 
