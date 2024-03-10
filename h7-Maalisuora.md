@@ -1,5 +1,12 @@
 # H7 - Maalisuora
 Tämän viikon
+## B) Uusi komento klo 12.00
+Luon uuden tekstitiedoston komennolla `nano moikkamoi.sh`. Lisään tiedostoon `#!/bin/bash` ja `echo "Moikka moi"`.
+Komennolla `chmod a+x moivaan.sh` annan kaikille käyttäjille oikeuden
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/23fffa89-2368-4fcd-bb74-567126a4be78)
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/72326c0d-0e6d-4711-8708-f373302933d3)
 
 ## D) Virtuaalikoneen asentaminen
 
@@ -14,7 +21,7 @@ Tarkistan verkkoselaimessa, että verkkoyhteys, näppäimistö jne toimii. Valit
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/9d9856f0-2381-4748-b378-88fdc624f2c1)
 
-### Alkutoimet // klo 11.50
+### Alkutoimet // klo 11.50-11.55
 Avaan terminaalin ja haen päivitykset komennolla `sudo apt-get update`. Päivitän kaiken komennolla `sudo apt-get -y dist-upgrade`. Asennan tulimuurin ja laitan sen päälle 
 sudo apt-get -y install ufw
 $ sudo ufw enable
