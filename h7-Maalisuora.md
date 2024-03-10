@@ -3,8 +3,8 @@ Tämän viikon kotitehtävässä loin uuden bash-komennon, suoritin vanhan labor
 
 ## A) "Hei maailma" Pythonilla // klo 17.57-
 Päätin tehdä tämän Pythonilla. Luon kansion komennolla mkdir heimaailma
-Siirryn kansioon ja luon tekstitiedoston komennolla 
-        $ nano helloworld.py
+Siirryn kansioon ja luon tekstitiedoston komennolla
+		$ nano helloworld.py
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/e66abe51-18cd-4b90-bda6-c9b355636684)
 
