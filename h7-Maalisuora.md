@@ -10,3 +10,8 @@ Annan koneelle RAM-muistia 5000 MB ja kovalevylle 60 GB. Painan "create" ja siir
 
 
 Tarkistan verkkoselaimessa, että verkkoyhteys, näppäimistö jne toimii. Valitsen työpöydältä "Install Debian", ja lähden asentamaan käyttöjärjestelmää. Valitsen kieleksi Amerikan englannin, sijainniksi Suomen sekä suomalaisen näppäimistön. Valitsen myös täpän Erase disk. Luon käyttäjän ja sille vahvan salasanan. Käynnistän asennuksen.
+
+### Oma käyttöympäristö
+
+### Lähdeluettelo 
+
