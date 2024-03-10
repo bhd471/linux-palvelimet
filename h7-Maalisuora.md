@@ -23,7 +23,7 @@ Tarkistan verkkoselaimessa, että verkkoyhteys, näppäimistö jne toimii. Valit
 
 ### Alkutoimet // klo 11.50-11.55
 Avaan terminaalin ja haen päivitykset komennolla `sudo apt-get update`. Päivitän kaiken komennolla `sudo apt-get -y dist-upgrade`. Asennan tulimuurin ja laitan sen päälle 
-> sudo apt-get -y install ufw
+    sudo apt-get -y install ufw
 $ sudo ufw enable
 
 ### Oma käyttöympäristö
