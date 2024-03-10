@@ -1,6 +1,19 @@
 # H7 - Maalisuora
 Tämän viikon kotitehtävässä loin uuden bash-komennon, suoritin vanhan laboratorioharjoituksen (Karvinen, T. 2019) ja asensin valmiiksi tyhjän virtuaalikoneen ensi viikon laboratorioharjoitusta varten.
 
+## A) "Hei maailma" Pythonilla // klo 17.57-
+Päätin tehdä tämän Pythonilla. Luon kansion komennolla mkdir heimaailma
+Siirryn kansioon ja luon tekstitiedoston komennolla 
+nano helloworld.py
+
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/e66abe51-18cd-4b90-bda6-c9b355636684)
+
+Tarkistan toimiiko
+cat helloworld.py
+python3 helloworld.py
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/ed209b82-6a3b-483c-8c4b-5b475e4aa79c)
+
+
 ## B) Uusi komento // klo 12.00-12.10
 Luon uuden tekstitiedoston komennolla `nano moikkamoi.sh`. Lisään tiedostoon `#!/bin/bash` ja `echo "Moikka moi"`.
 Komennolla `chmod a+x moivaan.sh` annan kaikille käyttäjille oikeuden komennon käyttämiseen
@@ -56,7 +69,8 @@ VM speksit:
 Karvinen, T. H7 - Maalisuora. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/ 
 Luettu 10.03.2024.
 
-https://terokarvinen.com/2019/03/12/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-3004-ti-alkukevat-2019-5-op/?fromSearch=laboratorioharjoitus Luettu
+Karvinen, T. 12.03.2019. Arvioitava laboratorioharjoitus - alkukevät 2019. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2019/03/12/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-3004-ti-alkukevat-2019-5-op/?fromSearch=laboratorioharjoitus
+Luettu 10.03.2024.
 
 Karvinen, T. 22.01.2021. Install Debian on Virtualbox. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/ 
 Luettu: 10.03.2024.
