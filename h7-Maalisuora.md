@@ -2,7 +2,7 @@
 Tämän viikon kotitehtävässä loin uuden bash-komennon, suoritin vanhan laboratorioharjoituksen (Karvinen, T. 2019) ja asensin valmiiksi tyhjän virtuaalikoneen ensi viikon laboratorioharjoitusta varten.
 
 ## A) "Hei maailma" Pythonilla // klo 17.57-
-Päätin tehdä tämän Pythonilla. Luon kansion komennolla `mkdir heimaailma`
+Päätin tehdä tämän Pythonilla. Luon kansion komennolla `mkdir heimaailma`.
 Siirryn kansioon ja luon tekstitiedoston komennolla
 ```
 $ nano helloworld.py
