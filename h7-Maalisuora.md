@@ -11,7 +11,13 @@ Annan koneelle RAM-muistia 5000 MB ja kovalevylle 60 GB. Painan "create" ja siir
 
 Tarkistan verkkoselaimessa, että verkkoyhteys, näppäimistö jne toimii. Valitsen työpöydältä "Install Debian", ja lähden asentamaan käyttöjärjestelmää. Valitsen kieleksi Amerikan englannin, sijainniksi Suomen sekä suomalaisen näppäimistön. Valitsen myös täpän Erase disk. Luon käyttäjän ja sille vahvan salasanan. Käynnistän asennuksen.
 
+![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/9d9856f0-2381-4748-b378-88fdc624f2c1)
+
+
 ### Oma käyttöympäristö
 
 ### Lähdeluettelo 
 
+Karvinen, T. 
+Karvinen, T. 22.01.2021. Install Debian on Virtualbox. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/ 
+Luettu: 10.03.2024.
