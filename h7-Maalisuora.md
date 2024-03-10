@@ -2,7 +2,7 @@
 Tämän viikon
 ## B) Uusi komento klo 12.00
 Luon uuden tekstitiedoston komennolla `nano moikkamoi.sh`. Lisään tiedostoon `#!/bin/bash` ja `echo "Moikka moi"`.
-Komennolla `chmod a+x moivaan.sh` annan kaikille käyttäjille oikeuden
+Komennolla `chmod a+x moivaan.sh` annan kaikille käyttäjille oikeuden komennon käyttämiseen
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/23fffa89-2368-4fcd-bb74-567126a4be78)
 
