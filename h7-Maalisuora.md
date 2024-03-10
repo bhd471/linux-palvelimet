@@ -9,8 +9,10 @@ Siirryn kansioon ja luon tekstitiedoston komennolla
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/e66abe51-18cd-4b90-bda6-c9b355636684)
 
 Tarkistan toimiiko
+```
 cat helloworld.py
 python3 helloworld.py
+```
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/ed209b82-6a3b-483c-8c4b-5b475e4aa79c)
 
 
