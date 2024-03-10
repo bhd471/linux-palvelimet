@@ -10,10 +10,14 @@ Annan koneelle RAM-muistia 5000 MB ja kovalevylle 60 GB. Painan "create" ja siir
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/e0459675-d8e9-4e7c-8ed4-e786e676b72e)
 
 
-Tarkistan verkkoselaimessa, että verkkoyhteys, näppäimistö jne toimii. Valitsen työpöydältä "Install Debian", ja lähden asentamaan käyttöjärjestelmää. Valitsen kieleksi Amerikan englannin, sijainniksi Suomen sekä suomalaisen näppäimistön. Valitsen myös täpän Erase disk. Luon käyttäjän ja sille vahvan salasanan. Käynnistän asennuksen, ja asennuksen päätyttyä käynnistän koneen uudelleen.
+Tarkistan verkkoselaimessa, että verkkoyhteys, näppäimistö jne toimii. Valitsen työpöydältä "Install Debian", ja lähden asentamaan käyttöjärjestelmää. Valitsen kieleksi Amerikan englannin, sijainniksi Suomen sekä suomalaisen näppäimistön. Valitsen myös täpän Erase disk. Luon käyttäjän ja sille vahvan salasanan. Käynnistän asennuksen, ja asennuksen päätyttyä käynnistän koneen uudelleen. Klo 11.00
 
 ![image](https://github.com/bhd471/linux-palvelimet/assets/148760837/9d9856f0-2381-4748-b378-88fdc624f2c1)
 
+### Alkutoimet // klo 11.50
+Avaan terminaalin ja haen päivitykset komennolla `sudo apt-get update`. Päivitän kaiken komennolla `sudo apt-get -y dist-upgrade`. Asennan tulimuurin ja laitan sen päälle 
+sudo apt-get -y install ufw
+$ sudo ufw enable
 
 ### Oma käyttöympäristö
 Oman koneen speksit:
