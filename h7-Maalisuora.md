@@ -1,5 +1,5 @@
 # H7 - Maalisuora
-Tämän viikon kotitehtävässä loin uuden bash-komennon, suoritin vanhan laboratorioharjoituksen (Karvinen, T. 2019) ja asensin valmiiksi tyhjän virtuaalikoneen ensi viikon laboratorioharjoitusta varten.
+Tämän viikon kotitehtävässä käänsin "Hei maailma" Pythonilla, loin uuden bash-komennon, aloitin suorittamaan vanhaa laboratorioharjoitusta (Karvinen, T. 2019) ja asensin valmiiksi tyhjän virtuaalikoneen ensi viikon laboratorioharjoitusta varten.
 
 ## A) "Hei maailma" Pythonilla // klo 17.57-
 Päätin tehdä tämän Pythonilla. Luon kansion komennolla `mkdir heimaailma`.
